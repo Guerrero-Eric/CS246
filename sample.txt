@@ -1,1 +1,2 @@
 Changed the sample text
+More text added

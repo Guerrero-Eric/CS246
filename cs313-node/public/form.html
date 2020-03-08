@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <p>Postal Rate Calculator</p>
+    <form action="/results" method="GET">
+        <label>Weight Not Over(oz.)</label>
+        <input type="text" name="weight" id="weight">
+        <label>Type of mail</label>
+        <select name="mail" id="mail">
+            <option value="Letters (Stamped)">Letters (Stamped)</option>
+            <option value="Letters (Metered)">Letters (Metered)</option>
+            <option value="Letters (Flats)">Large Envelopes (Flats)</option>
+            <option value="First-Class Package Service—Retail">First Class Package Service-Retail</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Get Result">
+    </form>
+</body>
+</html>
